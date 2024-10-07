@@ -329,7 +329,7 @@ header a.logo img {
     position: fixed;
     z-index: 99;
     top: 0;
-    background: #ffffff;
+    background: #0098DB;
     -webkit-animation-name: animationFade;
     animation-name: animationFade;
     -webkit-animation-duration: 1s;
@@ -341,12 +341,12 @@ header a.logo img {
 }
 
 .header-appear .navbar-top-default{
-    background: #ffffff;
+    background: #0098DB;
 }
 
 /*change nav color on sticky nav*/
 .header-appear .navbar-simple .navbar-nav .nav-link {
-    color: #000000;
+    color: #ffffff;
 }
 
 .navbar-nav {
@@ -662,7 +662,7 @@ header a.logo img {
 .side-nav .navbar-nav .nav-link::after{
     content: "";
     position: absolute;
-    background: #35db97;
+    background: #0098DB;
     display: inline-block;
     width: 0;
     height: 4px;
@@ -2321,7 +2321,7 @@ ul.rounded li::before {
         border-radius: 0;
     }
     .navbar-top-default {
-        background: #ffffff;
+        background: #0098DB;
         top: 0;
     }
     .navigation-toggle span {
