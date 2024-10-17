@@ -135,7 +135,7 @@ li{list-style: none;text-decoration: none;}
 blockquote {border-left: 2px solid;padding: 10px 15px 10px 35px;margin: 25px 0;font-size: 18px;line-height: 28px;margin-top: 32px;margin-bottom: 32px;}
 blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .hidden{display: none;}
-section{padding: 7.5rem 0;}
+section{padding: 1rem 0;}
 .padding-bottom {padding-bottom: 7.5rem;}
 .padding-top {padding-top: 7.5rem;}
 ::selection {background-color: #42d1eb;color: #ffffff;}
@@ -650,7 +650,7 @@ header a.logo img {
 }
 .side-nav .navbar-nav .nav-link {
     display: inline-table;
-    color: #ffffff;
+    color: #0098DB;
     padding: 2px 0 3px 0 !important;
     font-size: 1.5rem;
     font-weight: 300;
@@ -994,7 +994,7 @@ header a.logo img {
 ====================================== */
 
 .about-margin {
-    margin: 7rem 0;
+    margin: 1rem 0;
 }
 
 .about-box {
