@@ -261,7 +261,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                          data-textAlign="['center','center','center','center']"
                          data-responsive_offset="on" data-start="1500"
                          data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <p class="text-white alt-font font-18">Brunao vai um texto aqui amanha <br> coloco to com sono oh mano kkk </p>
                     </div>
                     <!-- LAYER NR. 5 -->
                     <div class="tp-caption tp-resizeme rs-parallaxlevel-2"
@@ -1074,33 +1073,67 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     flex-direction: column;
 }
 
+
+/* Section Styles */
+.contact-sec {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .contact-details {
+        gap: 20px;
+    }
+}
+
+@media (min-width: 769px) {
+    .row {
+        justify-content: space-between;
+    }
+}
+
 </style>
+
+
+
+
 <!-- START CONTATOS -->
-<section id="contatos" class="contact-sec center-content">
-    <div class="container center-content">
-        <div class="row center-content">
-            <div class="col-12 col-lg-6 contact-details text-md-left center-content">
-              
-                
-                <div class="row mt-5 center-content wow fadeIn" data-wow-delay="200ms">
+<section id="contatos" class="contact-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 contact-details">
+                <div class="row mt-5">
                     <div class="col-12 col-md-6">
-                        <h4 class="main-font text-blue font-16 font-weight-600">Nosso Endereço</h4>
-                        <p class="alt-font font-14 light-grey mt-3">N° 1927 - Av. Engenheiro privat - CE, 62400-000</p>
+                        <h4 class="contact-title">Nosso Endereço</h4>
+                        <p class="contact-info">N° 1927 - Av. Engenheiro Privat - CE, 62400-000</p>
                     </div>
-                    <div class="col-12 col-md-6 pt-5 pt-md-0 wow fadeIn" data-wow-delay="400ms">
-                        <h4 class="main-font text-blue font-16 font-weight-600">Nosso Telefone</h4>
-                        <p class="alt-font font-14 light-grey mt-3"><a href="https://api.whatsapp.com/send?phone=5588996228143&amp;" target="_blank">(88) 9 96228143 - Whatsapp Comercial/Vendas</a></p>
+                    <div class="col-12 col-md-6">
+                        <h4 class="contact-title">Nosso Telefone</h4>
+                        <p class="contact-info">
+                            <a href="https://api.whatsapp.com/send?phone=5588996228143" target="_blank">
+                                (88) 9 9622-8143 - Whatsapp Comercial/Vendas
+                            </a>
+                        </p>
                     </div>
                 </div>
 
-                <div class="row mt-5 center-content">
-                    <div class="col-12 col-md-6 wow fadeIn" data-wow-delay="600ms">
-                        <h4 class="main-font text-blue font-16 font-weight-600">Nosso E-mail</h4>
-                        <p class="alt-font font-14 light-grey mt-3"><a href="brunoolivira18@gmail.com" target="_blank">brunoolivira18@gmail.com</a></p>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-6">
+                        <h4 class="contact-title">Nosso E-mail</h4>
+                        <p class="contact-info">
+                            <a href="mailto:brunoolivira18@gmail.com">brunoolivira18@gmail.com</a>
+                        </p>
                     </div>
-                    <div class="col-12 col-md-6 pt-5 pt-md-0 wow fadeIn" data-wow-delay="800ms">
-                        <h4 class="main-font text-blue font-16 font-weight-600">Nosso Atendimento</h4>
-                        <p class="alt-font font-14 light-grey mt-3">Segunda - Domingo: 24h</p>
+                    <div class="col-12 col-md-6">
+                        <h4 class="contact-title">Nosso Atendimento</h4>
+                        <p class="contact-info">Segunda - Domingo: 24h</p>
                     </div>
                 </div>
             </div>
