@@ -1,13 +1,4 @@
-/**
- * jquery.hoverdir.js v1.1.2
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- *
- * Copyright 2012, Codrops
- * http://www.codrops.com
- */
+
 (function (factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -129,7 +120,6 @@
         },
         /**
          * get the direction when the event is triggered
-         * credits : http://stackoverflow.com/a/3647634
          *
          * @param {Object} coordinates
          * @returns {Interger}
